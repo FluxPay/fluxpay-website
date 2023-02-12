@@ -1,6 +1,13 @@
 import logo from "../images/logo.png"
 import who1 from "../images/who-1.jpg"
 import who2 from "../images/who-2.jpg"
+import superfluid from "../images/superfluid.svg"
+import push from "../images/push.svg"
+import polygon from "../images/polygon.svg"
+import mantle from "../images/mantle.svg"
+import arcana from "../images/arcana.png"
+import quicknode from "../images/quicknode.svg"
+import polywrap from "../images/polywrap.jpg"
 
 export default function Home() {
   return (
@@ -58,7 +65,41 @@ export default function Home() {
       <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
       <section className="w-full mx-auto p-12 flex flex-col justify-center items-center relative">
         <h2 className="text-center text-4xl font-bold my-4">Built Using</h2>
+        <div className="flex items-center justify-evenly my-16 w-4/5 flex-wrap">
+          <img className="mx-8 my-4 w-36" src={superfluid} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36 bg-black" src={push} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36" src={polygon} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36 bg-black" src={mantle} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36 bg-black" src={arcana} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36" src={quicknode} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36 bg-black" src={polywrap} alt="superfluid"/>
+        </div>
+        <div className="w-[0.5px] h-16 mx-auto border-2 border-gray-500 mt-8 absolute bottom-0"></div>
       </section>
+      <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
+      <section className="w-full mx-auto p-12 flex flex-col justify-center items-center relative">
+        <h2 className="text-center text-4xl font-bold my-4">Future scope and features</h2>
+        <div className="w-1/2 my-8 flex flex-col">
+          <div className="w-4/5 bg-fgreen text-white border-2 border-white hover:bg-white hover:text-fgreen hover:border-fgreen p-4 rounded-md self-start my-4">
+            <p>Enable users to set up different payment schedules for different contributors, allowing for more flexibility and customization.</p>
+          </div>
+          <div className="w-4/5 bg-fgreen text-white border-2 border-white hover:bg-white hover:text-fgreen hover:border-fgreen p-4 rounded-md self-end my-4">
+            <p>Explore the use of smart contracts to automate payroll management, making the process even more efficient and reducing the potential for errors.</p>
+          </div>
+          <div className="w-4/5 bg-fgreen text-white border-2 border-white hover:bg-white hover:text-fgreen hover:border-fgreen p-4 rounded-md self-start my-4">
+            <p>Integrate with other blockchain-based applications, such as time-tracking software or task management tools, to offer a more seamless experience for users.</p>
+          </div>
+          <div className="w-4/5 bg-fgreen text-white border-2 border-white hover:bg-white hover:text-fgreen hover:border-fgreen p-4 rounded-md self-end my-4">
+            <p>Developing a user-friendly interface that is easy to navigate and understand, making it accessible to a wider range of users.</p>
+          </div>
+        </div>
+        <div className="w-[0.5px] h-16 mx-auto border-2 border-gray-500 mt-8 absolute bottom-0"></div>
+      </section>
+      <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
+      <div className="mx-auto w-1/4 p-8 flex items-center justify-center">
+        <img className="w-8" src={logo} alt="logo"/>
+        <p className="text-center mx-4 text-lg">FluxPay</p>
+      </div>
     </div>
   )
 }
