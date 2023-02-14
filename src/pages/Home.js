@@ -13,11 +13,11 @@ import video from "../images/video.mp4"
 export default function Home() {
   return (
     <div className="font-dm">
-      <video className="fixed right-[-15%]" src={video} type="video/mp4" autoPlay playsInline muted loop style={{transform: 'translate3d(0px, 0px, 0px)', willChange: 'auto', transformOrigin: '100% 0% 0px'}}></video>
+      <video className="fixed right-[-20%]" src={video} type="video/mp4" autoPlay playsInline muted loop style={{transform: 'translate3d(0px, 0px, 0px)', willChange: 'auto', transformOrigin: '100% 0% 0px'}}></video>
       <section className="w-full min-h-screen mx-auto px-12 flex flex-col justify-center items-center relative">
         <img className="w-48 h-48 m-4 animate-spin-slow" src={logo} alt="logo" />
         <h1 className="text-center text-5xl font-bold my-4">FluxPay</h1>
-        <p className="text-fgreen font-bold text-xl">Simplify your DAO payroll management with Superfluid</p>
+        <p className="text-fgreen font-bold text-xl text-center">Simplify your DAO payroll management with Superfluid</p>
         <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500 mt-8 absolute bottom-0"></div>
       </section>
       <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
