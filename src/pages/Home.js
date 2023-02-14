@@ -8,10 +8,12 @@ import mantle from "../images/mantle.svg"
 import arcana from "../images/arcana.png"
 import quicknode from "../images/quicknode.svg"
 import polywrap from "../images/polywrap.jpg"
+import video from "../images/video.mp4"
 
 export default function Home() {
   return (
     <div className="font-dm">
+      <video className="fixed right-[-15%]" src={video} type="video/mp4" autoPlay playsInline muted loop style={{transform: 'translate3d(0px, 0px, 0px)', willChange: 'auto', transformOrigin: '100% 0% 0px'}}></video>
       <section className="w-full min-h-screen mx-auto px-12 flex flex-col justify-center items-center relative">
         <img className="w-48 h-48 m-4 animate-spin-slow" src={logo} alt="logo" />
         <h1 className="text-center text-5xl font-bold my-4">FluxPay</h1>
@@ -97,8 +99,8 @@ export default function Home() {
       </section>
       <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
       <div className="mx-auto w-1/4 p-8 flex items-center justify-center">
-        <img className="w-8" src={logo} alt="logo"/>
-        <p className="text-center mx-4 text-lg">FluxPay</p>
+        <img className="w-8 z-10" src={logo} alt="logo"/>
+        <p className="text-center mx-4 text-lg z-10">FluxPay</p>
       </div>
     </div>
   )
