@@ -70,7 +70,7 @@ export default function Home() {
         <div className="flex items-center justify-evenly my-16 w-4/5 flex-wrap">
           <img className="mx-8 my-4 w-36" src={superfluid} alt="superfluid"/>
           <img className="mx-8 my-4 w-36 bg-black" src={push} alt="superfluid"/>
-          <img className="mx-8 my-4 w-36" src={polygon} alt="superfluid"/>
+          <img className="mx-8 my-4 w-36" src={polygon} alt="polygon"/>
           <img className="mx-8 my-4 w-36 bg-black" src={mantle} alt="superfluid"/>
           <img className="mx-8 my-4 w-36 bg-black" src={arcana} alt="superfluid"/>
           <img className="mx-8 my-4 w-36" src={quicknode} alt="superfluid"/>
