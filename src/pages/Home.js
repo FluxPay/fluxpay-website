@@ -17,7 +17,7 @@ export default function Home() {
       <section className="w-full min-h-screen mx-auto px-12 flex flex-col justify-center items-center relative">
         <img className="w-48 h-48 m-4 animate-spin-slow" src={logo} alt="logo" />
         <h1 className="text-center text-5xl font-bold my-4">FluxPay</h1>
-        <p className="text-fgreen font-bold text-xl text-center">Simplify your DAO payroll management with Superfluid</p>
+        <p className="text-fgreen font-bold text-xl text-center">Simplify your DAO payroll management with Fluxpay</p>
         <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500 mt-8 absolute bottom-0"></div>
       </section>
       <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
@@ -27,10 +27,10 @@ export default function Home() {
           <div className="w-48 h-48 rounded-[50%] overflow-hidden mx-4">
             <img className="h-full object-cover" src={who1} alt="who this is for"/>
           </div>
-          <p className="w-full sm:max-w-[35%] mx-4">Superfluid is ideal for any organization, team or group of contributors that rely on blockchain technology for payment processing. It is especially well-suited for decentralized autonomous organizations (DAOs) that need to efficiently and securely manage payroll, without the complexity and overhead costs associated with traditional payroll processes.</p>
+          <p className="w-full sm:max-w-[35%] mx-4">Fluxpay is ideal for any organization, team or group of contributors that rely on blockchain technology for payment processing. It is especially well-suited for decentralized autonomous organizations (DAOs) that need to efficiently and securely manage payroll, without the complexity and overhead costs associated with traditional payroll processes.</p>
         </div>
         <div className="flex flex-col space-y-4 sm:flex-row justify-center items-center my-8">
-          <p className="w-full sm:max-w-[35%] mx-4">Superfluid is also useful for individuals who want to get paid in real-time for their contributions, without the delay and fees associated with traditional payment methods. Overall, Superfluid is designed to simplify the payroll management process for anyone using blockchain technology for compensation.</p>
+          <p className="w-full sm:max-w-[35%] mx-4">Fluxpay is also useful for individuals who want to get paid in real-time for their contributions, without the delay and fees associated with traditional payment methods. Overall, Fluxpay is designed to simplify the payroll management process for anyone using blockchain technology for compensation.</p>
           <div className="w-48 h-48 rounded-[50%] overflow-hidden mx-4">
             <img className="h-full object-cover" src={who2} alt="who this is for"/>
           </div>
@@ -44,21 +44,21 @@ export default function Home() {
           <div className="w-full flex flex-col sm:flex-row justify-between my-4 mb-4">
             <div className="w-full sm:w-[48%] hover:bg-white hover:text-black p-4 rounded-md">
               <h3 className="font-bold text-lg">Streamline payroll management</h3>
-              <p>Superfluid simplifies the process of managing payroll for DAOs, teams, and contributors by enabling users to set a yearly (or monthly) amount to transfer and then moving the funds over time without the need for any further transactions on-chain.</p>
+              <p>Fluxpay simplifies the process of managing payroll for DAOs, teams, and contributors by enabling users to set a yearly (or monthly) amount to transfer and then moving the funds over time without the need for any further transactions on-chain.</p>
             </div>
             <div className="w-full sm:w-[48%] hover:bg-white hover:text-black p-4 rounded-md">
               <h3 className="font-bold text-lg">Reduce overhead costs</h3>
-              <p>By only having to set the amount of funds to transfer once, rather than every month, Superfluid eliminates the need for monthly administrative and payroll transactions from complicated cold wallets, reducing overhead costs.</p>
+              <p>By only having to set the amount of funds to transfer once, rather than every month, Fluxpay eliminates the need for monthly administrative and payroll transactions from complicated cold wallets, reducing overhead costs.</p>
             </div>
           </div>
           <div className="w-full flex flex-col sm:flex-row justify-between my-4 mt-4">
             <div className="w-full sm:w-[48%] hover:bg-white hover:text-black p-4 rounded-md">
               <h3 className="font-bold text-lg">Pay in real-time</h3>
-              <p>Superfluid enables contributors to get paid in real-time, allowing them to use the funds as soon as they receive them.</p>
+              <p>FluxPay enables contributors to get paid in real-time, allowing them to use the funds as soon as they receive them.</p>
             </div>
             <div className="w-full sm:w-[48%] hover:bg-white hover:text-black p-4 rounded-md">
               <h3 className="font-bold text-lg">Directly stream to multiple wallets</h3>
-              <p>Superfluid allows users to stream tokens to as many wallets as they want directly from a Gnosis Safe, making it easy to pay everyone without needing to manage multiple accounts.</p>
+              <p>FluxPay allows users to stream tokens to as many wallets as they want directly from a safe, making it easy to pay everyone without needing to manage multiple accounts.</p>
             </div>
           </div>
         </div>
