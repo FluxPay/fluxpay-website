@@ -18,7 +18,7 @@ export default function Home() {
         <img className="w-48 h-48 m-4 animate-spin-slow" src={logo} alt="logo" />
         <h1 className="text-center text-5xl font-bold my-4">FluxPay</h1>
         <p className="text-fgreen font-bold text-xl text-center">Simplify your DAO payroll management with Fluxpay</p>
-        <a href="/" className="px-4 py-2 text-xl font-bold bg-fgreen rounded-3xl text-white mt-12">Launch App</a>
+        <a href="https://fluxpay-dashboard.vercel.app" className="px-4 py-2 text-xl font-bold bg-fgreen rounded-3xl text-white mt-12">Launch App</a>
         <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500 mt-8 absolute bottom-0"></div>
       </section>
       <div className="w-[0.5px] h-24 mx-auto border-2 border-gray-500"></div>
